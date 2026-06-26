@@ -1,0 +1,5 @@
+node_modules/
+dist/
+target/
+pkg/
+src_ts/wasm_bytes.ts
