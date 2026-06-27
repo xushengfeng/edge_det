@@ -3,7 +3,7 @@
     "version": "0.1.2",
     "type": "module",
     "license": "Apache-2.0",
-    "main": "dist/index.js",
+    "main": "dist/edge_det.js",
     "types": "dist/index.d.ts",
     "files": [
         "dist",
@@ -14,7 +14,7 @@
     },
     "scripts": {
         "build:wasm": "node scripts/build-wasm.mjs",
-        "build": "npm run build:wasm && tsc",
+        "build": "npm run build:wasm && vite build && tsc --emitDeclarationOnly",
         "test": "vitest run",
         "test:watch": "vitest"
     },
