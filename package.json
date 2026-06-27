@@ -9,6 +9,9 @@
         "dist",
         "LICENSE"
     ],
+    "repository": {
+        "url": "https://github.com/xushengfeng/edge_det"
+    },
     "scripts": {
         "build:wasm": "node scripts/build-wasm.mjs",
         "build": "npm run build:wasm && tsc",
